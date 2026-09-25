@@ -1,0 +1,326 @@
+{
+    "analysis_id": "PC-1789883871562",
+    "extraction": {
+        "category": "Food / Beverage",
+        "fssai_applicable": true,
+        "bis_applicable": false,
+        "product_name": "Milk Chocolate",
+        "brand": "Mondelez",
+        "manufacturer": "Mondelez India Foods Private Limited",
+        "manufacturer_address": "6055, Central Expressway, Sector- 25, Sricity, Chittoor District- 517 544, Andhra Pradesh",
+        "fssai_number": "10014022002711, 10015044000995",
+        "is_number": null,
+        "bis_license_number": null,
+        "mrp": "Rs. 100.00",
+        "net_quantity": "126 g",
+        "batch_number": null,
+        "manufacturing_date": null,
+        "expiry_date": null,
+        "best_before": "12 MONTHS FROM PACKAGING",
+        "country_of_origin": null,
+        "consumer_care": "Call 1800 22 7080 / email at suggestions@mdlzindia.com / write to Mumbai address on pack",
+        "ingredients": "Sugar, Milk Solids (23%*), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476), Flavours (Natural, Nature Identical and Artificial (Vanilla) Flavouring Substances).",
+        "allergens": [
+            "Contains Milk",
+            "May Contain Tree Nuts, Wheat, Barley and Soy"
+        ],
+        "warnings": [],
+        "storage_conditions": [
+            "STORE IN A COOL, HYGIENIC AND DRY PLACE. Temperature and humidity changes may cause product to develop a whitish layer, without affecting its fitness for consumption"
+        ],
+        "barcode_or_gtin": "7622201710576",
+        "additional_declarations": [
+            "Unit Sale Price: Rs. 0.79 per g",
+            "Packaging Material Mfd. By: Huhtamaki PPL Ltd., Telangana Reg. No.: B-17011/7/UPC-II-PWM(MLP)/2018(HPPLL)/4530",
+            "100% Sustainably Sourced Cocoa - Cocoa Life"
+        ],
+        "confidence": {
+            "product_name": "high",
+            "fssai_number": "high",
+            "mrp": "high",
+            "net_quantity": "high",
+            "ingredients": "high",
+            "barcode_or_gtin": "high"
+        },
+        "extraction_notes": [
+            "Google Gemini Vision is the only extraction engine used.",
+            "Fields are extracted only from information visually available in the supplied image(s).",
+            "All supplied images were treated as different views of the same physical package.",
+            "IS numbers and BIS registration/licence identifiers are evidence fields; they are not treated as proof of certification.",
+            "Gemini Vision analyzed 1 package image(s) together.",
+            "Gemini Vision succeeded after one temporary-error retry."
+        ]
+    },
+    "compliance": {
+        "overall_status": "REVIEW",
+        "rule_version": "PackCheck-LM-2011-v2",
+        "category": "Food / Beverage",
+        "applicability": {
+            "food": true,
+            "fssai": true,
+            "cosmetic": false,
+            "bis": false,
+            "electrical": false,
+            "toy": false,
+            "battery": false,
+            "textile": false,
+            "chemical": false,
+            "agricultural": false,
+            "automotive": false
+        },
+        "checks": [
+            {
+                "field": "Product Name",
+                "status": "PASS",
+                "value": "Milk Chocolate",
+                "message": "Product name detected.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Common / generic name of the commodity",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "Milk Chocolate",
+                "recommended_action": "Verify the commodity name on the package.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Product Category",
+                "status": "PASS",
+                "value": "Food / Beverage",
+                "message": "Product category detected.",
+                "rule": "PackCheck applicability classification",
+                "requirement": "Product-category classification used for applicability decisions",
+                "legal_reference": "PackCheck applicability classification",
+                "evidence": "Food / Beverage",
+                "recommended_action": "Review the detected category if the applicability decision appears incorrect.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Manufacturer / Packer / Importer",
+                "status": "PASS",
+                "value": "Mondelez India Foods Private Limited",
+                "message": "Responsible business entity detected.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Name and address of manufacturer / packer / importer",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "Mondelez India Foods Private Limited",
+                "recommended_action": "Verify the responsible business entity details.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Manufacturer Address",
+                "status": "PASS",
+                "value": "6055, Central Expressway, Sector- 25, Sricity, Chittoor District- 517 544, Andhra Pradesh",
+                "message": "Address detected.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Address of manufacturer / packer / importer",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "6055, Central Expressway, Sector- 25, Sricity, Chittoor District- 517 544, Andhra Pradesh",
+                "recommended_action": "Verify the declared address on the package.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "MRP",
+                "status": "PASS",
+                "value": "Rs. 100.00",
+                "message": "MRP detected with a recognizable currency/value format.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Retail Sale Price / Maximum Retail Price (MRP)",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "Rs. 100.00",
+                "recommended_action": "Verify the MRP declaration on the package.",
+                "applicability": "Applicable",
+                "check_type": "format"
+            },
+            {
+                "field": "Net Quantity",
+                "status": "PASS",
+                "value": "126 g",
+                "message": "Net quantity detected with a recognizable unit.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Net quantity of the commodity",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "126 g",
+                "recommended_action": "Verify the quantity and its unit on the package.",
+                "applicability": "Applicable",
+                "check_type": "format"
+            },
+            {
+                "field": "Batch / Lot Number",
+                "status": "REVIEW",
+                "value": null,
+                "message": "Batch or lot information was not detected. Applicability may depend on product category.",
+                "rule": "Legal Metrology / applicable product-specific requirements",
+                "requirement": "Batch / lot identification where applicable",
+                "legal_reference": "Legal Metrology / applicable product-specific requirements",
+                "evidence": "",
+                "recommended_action": "Confirm whether the requirement applies to this commodity and verify the batch/lot declaration.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Country of Origin",
+                "status": "REVIEW",
+                "value": null,
+                "message": "Country-of-origin information was not detected.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Country of origin declaration where applicable",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "",
+                "recommended_action": "Verify the country-of-origin declaration.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Consumer Care Details",
+                "status": "PASS",
+                "value": "Call 1800 22 7080 / email at suggestions@mdlzindia.com / write to Mumbai address on pack",
+                "message": "Consumer care/contact information detected.",
+                "rule": "Legal Metrology (Packaged Commodities) Rules, 2011",
+                "requirement": "Consumer care / contact details",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "Call 1800 22 7080 / email at suggestions@mdlzindia.com / write to Mumbai address on pack",
+                "recommended_action": "Verify the consumer-care contact information.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "FSSAI License / Registration",
+                "status": "PASS",
+                "value": "10014022002711, 10015044000995",
+                "message": "FSSAI number detected. Official FoSCoS verification should be performed.",
+                "rule": "Applicable FSSAI requirements",
+                "requirement": "FSSAI licence / registration identification where applicable",
+                "legal_reference": "Applicable FSSAI requirements",
+                "evidence": "10014022002711, 10015044000995",
+                "recommended_action": "Verify the licence / registration through the official FSSAI/FoSCoS pathway.",
+                "applicability": "Applicable",
+                "check_type": "official_verification"
+            },
+            {
+                "field": "Manufacturing / Packing Date",
+                "status": "REVIEW",
+                "value": null,
+                "message": "Manufacturing / packing date was not detected.",
+                "rule": "Applicable packaged commodity requirements",
+                "requirement": "Month and year of manufacture / packing where applicable",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "",
+                "recommended_action": "Verify the manufacturing / packing date on the package.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Expiry / Best Before",
+                "status": "PASS",
+                "value": "12 MONTHS FROM PACKAGING",
+                "message": "Expiry or best-before information detected.",
+                "rule": "Applicable product-specific requirements",
+                "requirement": "Expiry / best-before information where applicable",
+                "legal_reference": "Applicable product-specific requirements",
+                "evidence": "12 MONTHS FROM PACKAGING",
+                "recommended_action": "Confirm applicability and verify the expiry / best-before declaration.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Ingredients",
+                "status": "PASS",
+                "value": "Sugar, Milk Solids (23%*), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476), Flavours (Natural, Nature Identical and Artificial (Vanilla) Flavouring Substances).",
+                "message": "Ingredient information detected.",
+                "rule": "Applicable food labelling requirements",
+                "requirement": "Ingredient information where applicable",
+                "legal_reference": "Applicable food labelling requirements",
+                "evidence": "Sugar, Milk Solids (23%*), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476), Flavours (Natural, Nature Identical and Artificial (Vanilla) Flavouring Substances).",
+                "recommended_action": "Confirm applicability and verify the ingredient declaration.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Additional Declarations",
+                "status": "PASS",
+                "value": [
+                    "Unit Sale Price: Rs. 0.79 per g",
+                    "Packaging Material Mfd. By: Huhtamaki PPL Ltd., Telangana Reg. No.: B-17011/7/UPC-II-PWM(MLP)/2018(HPPLL)/4530",
+                    "100% Sustainably Sourced Cocoa - Cocoa Life"
+                ],
+                "message": "3 additional declaration(s) detected.",
+                "rule": "Applicable product-specific requirements",
+                "requirement": "Applicable additional product-specific declarations",
+                "legal_reference": "Applicable product-specific requirements",
+                "evidence": "Unit Sale Price: Rs. 0.79 per g | Packaging Material Mfd. By: Huhtamaki PPL Ltd., Telangana Reg. No.: B-17011/7/UPC-II-PWM(MLP)/2018(HPPLL)/4530 | 100% Sustainably Sourced Cocoa - Cocoa Life",
+                "recommended_action": "Confirm which additional declarations apply to this commodity.",
+                "applicability": "Applicable",
+                "check_type": "presence"
+            },
+            {
+                "field": "Label Presentation",
+                "status": "REVIEW",
+                "value": "",
+                "message": "No structured presentation observations were available. Exact font size, placement and visibility should be reviewed by an inspector.",
+                "rule": "Applicable declaration presentation requirements",
+                "requirement": "Legibility and prominence of required declarations",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 9(1)(a)",
+                "evidence": "",
+                "recommended_action": "Inspect the physical package for legibility and prominence.",
+                "applicability": "Applicable",
+                "check_type": "presentation"
+            }
+        ],
+        "findings": [
+            {
+                "field": "Batch / Lot Number",
+                "status": "REVIEW",
+                "message": "Batch or lot information was not detected. Applicability may depend on product category.",
+                "requirement": "Batch / lot identification where applicable",
+                "legal_reference": "Legal Metrology / applicable product-specific requirements",
+                "evidence": "",
+                "recommended_action": "Confirm whether the requirement applies to this commodity and verify the batch/lot declaration."
+            },
+            {
+                "field": "Country of Origin",
+                "status": "REVIEW",
+                "message": "Country-of-origin information was not detected.",
+                "requirement": "Country of origin declaration where applicable",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "",
+                "recommended_action": "Verify the country-of-origin declaration."
+            },
+            {
+                "field": "Manufacturing / Packing Date",
+                "status": "REVIEW",
+                "message": "Manufacturing / packing date was not detected.",
+                "requirement": "Month and year of manufacture / packing where applicable",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 6",
+                "evidence": "",
+                "recommended_action": "Verify the manufacturing / packing date on the package."
+            },
+            {
+                "field": "Label Presentation",
+                "status": "REVIEW",
+                "message": "No structured presentation observations were available. Exact font size, placement and visibility should be reviewed by an inspector.",
+                "requirement": "Legibility and prominence of required declarations",
+                "legal_reference": "Legal Metrology (Packaged Commodities) Rules, 2011 — Rule 9(1)(a)",
+                "evidence": "",
+                "recommended_action": "Inspect the physical package for legibility and prominence."
+            }
+        ],
+        "summary": {
+            "total_checks": 15,
+            "passed": 11,
+            "review": 4,
+            "missing": 0
+        },
+        "disclaimer": "PackCheck AI provides preliminary compliance screening based on extracted package information and configured rules. It is not legal certification. Exact statutory presentation requirements, physical measurements and official registrations may require verification by an authorized inspector or the relevant authority."
+    },
+    "verification": {
+        "analysis_id": "PC-1789883871562",
+        "open_after": 1789883881.562241,
+        "workflows": [
+            "FOSCOS"
+        ],
+        "type": "FOSCOS"
+    }
+}

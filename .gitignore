@@ -1,0 +1,42 @@
+# Python virtual environments
+sih_env/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env.*
+*.json
+!data/report_history.json
+!API/packcheck_result.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary images
+tmp*.png
+tmp*.jpg
+tmp*.jpeg
+tmp*.webp
+PackCheck_Combined_*.jpg
+
+# Generated reports
+PackCheck_Report_*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+.env
