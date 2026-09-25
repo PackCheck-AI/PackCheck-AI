@@ -496,7 +496,7 @@ The project focuses on reducing repetitive manual work during packaged commodity
 
 # 👥 Team
 
-Developed as part of the **Smart India Hackathon** by a student team from **New Horizon College of Engineering**.
+Developed as part of the **Smart India Hackathon**.
 
 ---
 
