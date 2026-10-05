@@ -1,89 +1,92 @@
 # 📦 PackCheck AI
 
-### AI-Powered Automated Package Compliance Checking
+### AI-Powered Multi-Source Product Compliance Intelligence
 
 **Scan • Analyze • Verify • Report**
 
-PackCheck AI is an AI-powered inspection assistance system designed to help inspectors extract mandatory declarations from packaged commodity labels, perform automated rule-based compliance checks, assist with official verification workflows, and generate structured inspection reports.
+PackCheck AI is an **AI-assisted smart automation and product compliance intelligence system** designed to help users extract information from product package labels, perform automated rule-based analysis, identify areas requiring further review, assist with official verification workflows, and generate structured inspection reports.
 
-The latest prototype also presents automated compliance insights, helping convert extracted package information into useful findings that can be reviewed by an authorized inspector.
+The system combines **AI-powered information extraction, automated data processing, rule-based compliance analysis, verification assistance, and structured reporting** into a unified inspection workflow.
 
----
-
-## 🎯 Problem
-
-Inspecting packaged commodities manually requires checking multiple declarations on product labels and verifying them against applicable regulatory requirements.
-
-Important information such as:
-
-* Product name
-* MRP
-* Net quantity
-* Manufacturer / Packer / Importer
-* Address
-* Date of manufacture / packing
-* Country of origin
-* Consumer care information
-* FSSAI licence / registration details
-* BIS / IS information
-
-may need to be checked individually.
-
-This can make the inspection process time-consuming and repetitive, while increasing the possibility of manual errors.
-
-PackCheck AI brings these steps together into a single inspection-assistance workflow using AI-powered extraction, automated compliance analysis, official verification workflows, and automated reporting.
+> **Note:** PackCheck AI is an inspection-assistance and decision-support system. Final verification and regulatory decisions remain under the control of the authorized authority.
 
 ---
 
-## 💡 Solution
+# 🎯 Problem
 
-PackCheck AI follows the workflow:
+Modern product and regulatory inspection workflows often involve collecting information from multiple sources, checking large amounts of structured and unstructured data, and performing repetitive verification tasks manually.
+
+This creates challenges such as:
+
+* Time-consuming information collection
+* Repetitive manual verification
+* Difficulty consolidating information from different sources
+* Increased possibility of human error
+* Limited automation in preliminary inspection and analysis
+* Difficulty converting extracted information into actionable insights
+
+There is a need for a **smart, AI-assisted software solution** that can automate information extraction, intelligently analyze the collected data, identify areas requiring attention, and assist users in making informed decisions.
+
+PackCheck AI addresses this challenge by combining **AI-powered information extraction, automated rule-based analysis, product compliance intelligence, official verification workflows, and structured reporting** into a unified inspection-assistance system.
+
+---
+
+# 💡 Solution
+
+PackCheck AI is a **smart automation and product compliance intelligence platform** designed to reduce repetitive manual work involved in product inspection and preliminary compliance analysis.
+
+The system follows an intelligent workflow:
 
 ```text
-Package Image / PDF
+Product Image / PDF
         ↓
-Gemini Vision Extraction
+AI-Powered Information Extraction
         ↓
-Structured Product Information
+Structured Product Data
         ↓
-Automated Compliance Engine
+Automated Analysis & Rule-Based Processing
         ↓
-Compliance Insights
+Compliance Intelligence & Insights
         ↓
-Official Verification Workflows
+Official Verification Assistance
         ↓
-Inspection Report
+Structured Inspection Report
 ```
 
 The system:
 
-1. Accepts a package image or PDF.
-2. Extracts relevant label information using Gemini Vision.
-3. Identifies mandatory and applicable declarations.
-4. Performs automated rule-based compliance checks.
-5. Identifies potential issues and generates actionable compliance insights.
-6. Assists with official verification workflows such as FSSAI/FoSCoS and BIS.
-7. Generates a structured inspection report.
-8. Maintains inspection history through the dashboard.
+1. Accepts a product package image or PDF.
+2. Uses AI-powered vision processing to extract relevant information.
+3. Converts unstructured package information into structured data.
+4. Automatically evaluates the extracted information against applicable rules and requirements.
+5. Identifies missing, inconsistent, or potentially problematic information.
+6. Generates actionable compliance insights for review.
+7. Assists users with relevant official verification workflows.
+8. Generates structured inspection reports.
+9. Maintains inspection history through the dashboard.
 
-> **Note:** PackCheck AI is an inspection-assistance system. Final verification and regulatory decisions remain under the control of the authorized inspector.
+PackCheck AI is designed as a **decision-support and automation system**. It assists users by reducing repetitive work and organizing relevant information, while final verification and regulatory decisions remain under the control of the authorized authority.
 
 ---
 
 # 🤖 Smart Automation
 
-PackCheck AI demonstrates smart automation by combining artificial intelligence, information extraction, and automated rule-based analysis.
+PackCheck AI demonstrates **Smart Automation** by combining artificial intelligence, structured data processing, deterministic rule-based analysis, and automated reporting into a single workflow.
 
-The system automatically:
+Instead of requiring the user to manually collect and evaluate every piece of product information, the system automatically:
 
-* Extracts package information using AI-powered vision processing.
-* Converts extracted label information into structured product data.
-* Evaluates the information against applicable compliance requirements.
-* Identifies missing or potentially incorrect declarations.
-* Generates automated compliance insights and recommended actions.
-* Produces structured inspection reports.
+* Extracts relevant information from product labels using AI-powered vision.
+* Converts unstructured information into structured product data.
+* Determines applicable compliance requirements.
+* Performs automated rule-based checks.
+* Identifies missing or potentially inconsistent information.
+* Generates automated compliance insights.
+* Provides recommended areas for further review.
+* Assists with official verification workflows.
+* Generates structured inspection reports.
+* Maintains historical inspection records.
 
-This reduces repetitive manual checking and allows inspectors to focus on information that requires further review.
+This approach reduces repetitive manual effort and allows users to focus their attention on cases that require human judgment or official verification.
 
 ---
 
@@ -206,7 +209,7 @@ The official portal remains the source for the final verification.
 
 ## 🔗 Extensible Verification Architecture
 
-PackCheck AI is designed so that additional regulatory verification workflows can be added for other categories of packaged commodities and regulated products.
+PackCheck AI is designed so that additional regulatory verification workflows can be added for other categories of products and regulated items.
 
 This allows the system to expand beyond a single regulatory database or product category.
 
@@ -225,7 +228,7 @@ After analysis, PackCheck AI generates a structured inspection report containing
 * Inspection outcome
 * Timestamp
 
-Reports provide inspectors with a consolidated view of the analysis performed by the system.
+Reports provide users with a consolidated view of the analysis performed by the system.
 
 ---
 
@@ -249,48 +252,49 @@ The dashboard is intended to keep the complete inspection workflow in one place.
 
 ```text
                     ┌─────────────────────┐
-                    │   Package Image /   │
-                    │        PDF          │
+                    │ Product Image / PDF │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │    Gemini Vision    │
-                    │  Label Extraction   │
+                    │   AI Vision Engine  │
+                    │ Information         │
+                    │ Extraction          │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │ Extracted Product   │
-                    │      Details        │
+                    │ Structured Product  │
+                    │       Data          │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │ Automated Compliance│
-                    │       Engine        │
+                    │ Smart Automation &  │
+                    │ Rule-Based Analysis │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │ Compliance Insights │
-                    │ & Review Findings   │
+                    │ Product Compliance │
+                    │    Intelligence     │
                     └──────────┬──────────┘
                                │
                  ┌─────────────┴─────────────┐
                  │                           │
                  ▼                           ▼
        ┌──────────────────┐        ┌──────────────────┐
-       │ FSSAI / FoSCoS  │        │       BIS        │
-       │   Verification  │        │   Verification   │
+       │ Official         │        │ Additional       │
+       │ Verification     │        │ Verification     │
+       │ Workflows        │        │ Sources          │
        └────────┬─────────┘        └────────┬─────────┘
                 │                           │
                 └─────────────┬─────────────┘
                               │
                               ▼
                     ┌─────────────────────┐
-                    │ Inspection Report   │
-                    │    & Dashboard      │
+                    │ Reports, Insights   │
+                    │ & Inspection History│
                     └─────────────────────┘
 ```
 
@@ -298,7 +302,7 @@ The dashboard is intended to keep the complete inspection workflow in one place.
 
 # 🛠️ Tech Stack
 
-| Technology               | Purpose                                |
+| **Technology**           | **Purpose**                            |
 | ------------------------ | -------------------------------------- |
 | **Python**               | Core application and compliance logic  |
 | **Streamlit**            | Inspector dashboard                    |
@@ -353,7 +357,7 @@ PackCheck-AI/
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/Moulya-k-m/PackCheck-AI.git
+git clone https://github.com/PackCheck-AI/PackCheck-AI.git
 cd PackCheck-AI
 ```
 
@@ -379,34 +383,6 @@ pip install -r requirements.txt
 
 ---
 
-# 🔐 API Configuration
-
-PackCheck AI requires a Gemini API key for AI-powered label extraction.
-
-Create a local `.env` file in the project root:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-```
-
-**Never commit your real API key to GitHub.**
-
-The `.env` file should be included in `.gitignore`.
-
-Example:
-
-```gitignore
-.env
-*.env
-__pycache__/
-.venv/
-sih_env/
-```
-
-> Each developer using the project should create their own local `.env` file with their own API key.
-
----
-
 # ▶️ Running the Application
 
 After activating the virtual environment:
@@ -428,21 +404,23 @@ python report_server.py
 # 🔄 Inspection Workflow
 
 ```text
-1. Upload Package
+1. Upload Product
        ↓
-2. AI Label Extraction
+2. AI Information Extraction
        ↓
-3. Review Extracted Details
+3. Structure Extracted Data
        ↓
-4. Automated Compliance Analysis
+4. Automated Analysis
        ↓
-5. Review Compliance Insights
+5. Generate Compliance Intelligence
        ↓
-6. Perform Official Verification
+6. Review Identified Findings
        ↓
-7. Generate Inspection Report
+7. Perform Official Verification
        ↓
-8. Store Inspection History
+8. Generate Inspection Report
+       ↓
+9. Store Inspection History
 ```
 
 ---
@@ -465,12 +443,15 @@ Official verification workflows are designed to keep actions such as CAPTCHA ent
 
 # 🚧 Project Status
 
-PackCheck AI is currently developed as a prototype for **Smart India Hackathon (SIH) Student Innovation – Smart Automation**.
+PackCheck AI is currently developed as a prototype for the **Smart India Hackathon – Student Innovation** track under the **Smart Automation** theme.
 
-Current prototype capabilities include:
+The current prototype demonstrates how AI and automated data processing can be applied to a real-world inspection and compliance workflow.
 
-* AI-based package label extraction
-* Automated rule-based compliance checking
+Current capabilities include:
+
+* AI-powered product information extraction
+* Automated rule-based analysis
+* Product compliance intelligence
 * Automated compliance insights
 * FSSAI / FoSCoS verification assistance
 * BIS verification workflow
@@ -478,7 +459,7 @@ Current prototype capabilities include:
 * Inspection history
 * Streamlit-based inspector dashboard
 
-Additional regulatory categories and verification workflows can be integrated as the system evolves.
+The architecture is designed to be extensible, allowing additional product categories, regulatory requirements, data sources, and verification workflows to be integrated as the system evolves.
 
 ---
 
@@ -488,22 +469,34 @@ Additional regulatory categories and verification workflows can be integrated as
 **Theme:** Smart Automation
 **Project:** PackCheck AI
 
-PackCheck AI demonstrates the intelligent use of artificial intelligence and automated rule-based analysis to transform package-label information into useful compliance insights.
+PackCheck AI demonstrates how **artificial intelligence, automated data processing, and rule-based intelligence** can be combined to address repetitive and information-intensive inspection workflows.
 
-The project focuses on reducing repetitive manual work during packaged commodity inspections by combining AI-assisted information extraction, deterministic compliance rules, official verification workflows, and structured reporting.
+The project focuses on transforming unstructured product information into **structured data, automated analysis, actionable insights, and verification assistance** through a unified software platform.
+
+By automating repetitive information extraction and preliminary analysis, PackCheck AI aims to improve workflow efficiency while keeping human judgment and official verification at the appropriate stages.
+
+The solution is designed around the principles of:
+
+* **AI-assisted automation**
+* **Intelligent information extraction**
+* **Automated data analysis**
+* **Actionable intelligence**
+* **Human-in-the-loop verification**
+* **Extensible software architecture**
+* **Structured reporting and traceability**
 
 ---
 
 # 👥 Team
 
-Developed as part of the **Smart India Hackathon**.
+Developed as part of the **Smart India Hackathon – Student Innovation** initiative.
 
 ---
 
-## 📌 Disclaimer
+# 📌 Disclaimer
 
-PackCheck AI is a prototype inspection-assistance and decision-support system.
+PackCheck AI is a prototype **AI-assisted smart automation and decision-support system**.
 
-AI-generated extraction and automated rule checks are intended to assist inspectors and identify areas requiring further review. They should not replace official regulatory verification or the judgment of an authorized authority.
+AI-generated information extraction and automated analysis are intended to assist users by reducing repetitive work and identifying areas requiring further review. They should not replace official verification, regulatory authorities, or the judgment of an authorized authority.
 
-Official portals and regulatory authorities remain the source of final verification and compliance decisions.
+Official portals, regulatory databases, and authorized authorities remain the source of final verification and compliance decisions.
