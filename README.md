@@ -1,6 +1,6 @@
 # 📦 PackCheck AI
 
-### AI-Powered Multi-Source Product Compliance Intelligence
+### AI-Powered Product Compliance & Smart Automation
 
 **Scan • Analyze • Verify • Report**
 
